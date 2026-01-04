@@ -1,7 +1,9 @@
 /target/
+/.trunk/
 
 /out.html
 /glyph.html
+/bundled_test.html
 
 *.log
 

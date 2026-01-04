@@ -323,9 +323,14 @@ fn _gly(
 
     let mut ttf = ttf;
     if ttf.is_none() {
-        let sys = "C:\\Windows\\Fonts\\consola.ttf";
-        if Path::new(sys).exists() {
-            ttf = Some(sys);
+        let bundled = "assets/font.ttf";
+        if Path::new(bundled).exists() {
+            ttf = Some(bundled);
+        } else {
+            let sys = "C:\\Windows\\Fonts\\consola.ttf";
+            if Path::new(sys).exists() {
+                ttf = Some(sys);
+            }
         }
     }
 
