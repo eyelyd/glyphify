@@ -2,7 +2,10 @@
 
 images to html
 
+**braille**  
 ![⠃⠗⠁⠊⠇⠇⠑](braille.png)  
+
+**glyph**  
 ![✦](glyph.png)
 
 two modes:
