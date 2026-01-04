@@ -1,0 +1,9 @@
+/target/
+
+/out.html
+/glyph.html
+
+*.log
+
+.vscode/
+.idea/
