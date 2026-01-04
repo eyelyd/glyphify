@@ -10,8 +10,8 @@ images to html
 
 two modes:
 
-- `braille`: 2x4 subpixel dots. fast, classic
-- `glyph`: font-aware matching. matches tone, edge magnitude, and edge direction. uses bundled jetbrains mono by default
+- `braille`: 2x4 subpixel dots, fast, classic
+- `glyph`: font aware matching. Matches tone, edge magnitude, and edge direction. Uses bundled jetbrains mono by default
 
 ## usage
 
