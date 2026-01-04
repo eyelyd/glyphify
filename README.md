@@ -16,12 +16,12 @@ two modes:
 
 ### braille
 ```bash
-cargo run -- forSS.jpg -o out.html --mode braille --width 180 --zoom 1.5
+cargo run -- example.jpg -o out.html --mode braille --width 180 --zoom 1.5
 ```
 
 ### glyph
 ```bash
-cargo run -- forSS.jpg -o glyph.html --mode glyph --width 140 --edge 0.55 --dir 0.35
+cargo run -- example.jpg -o glyph.html --mode glyph --width 140 --edge 0.55 --dir 0.35
 ```
 
 ## flags
