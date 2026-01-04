@@ -2,8 +2,8 @@
 
 images to html
 
-![braille](braille.png)
-![glyph](glyph.png)
+![⠃⠗⠁⠊⠇⠇⠑](braille.png)  
+![✦](glyph.png)
 
 two modes:
 - `braille`: 2x4 subpixel dots. fast, classic
